@@ -1,0 +1,9 @@
+#N canvas 368 63 450 300 12;
+#X obj 37 37 r vl53l0x;
+#X obj 88 169 print;
+#X obj 75 111 timer;
+#X obj 73 80 t b b;
+#X connect 0 0 3 0;
+#X connect 2 0 1 0;
+#X connect 3 0 2 0;
+#X connect 3 1 2 1;
